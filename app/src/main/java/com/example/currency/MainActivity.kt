@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     private val countries = arrayOf("Euro", "Dollar", "Won", "Yen", "Dong")
     private val symbols = arrayOf("€", "$", "₩", "¥", "đ")
-    private val exchangeRates = floatArrayOf(1f, 1.12f, 0.00085f, 0.0075f, 0.000043f)
+    private val exchangeRates = floatArrayOf(1f, 0.92f, 0.00063f, 0.0062f, 0.000036f)
 
     private var positionFrom = 0
     private var positionTo = 1
